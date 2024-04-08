@@ -1,0 +1,71 @@
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+    header {
+        font-size: 24px;
+        /* Reduces size of header font */
+    }
+}
+
+html,
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+header {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#navbar {
+    position: fixed;
+    text-decoration: none;
+    width: 200px;
+    left: 0;
+    border-right: 1px solid #000;
+    height: 100%;
+    background-color: #f4f4f4;
+    overflow-y: auto;
+    /* Add scrollbar for overflow */
+}
+
+.nav-link {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 20px;
+
+    transition: background-color 0.3s;
+
+}
+
+.nav-link:hover {
+    background-color: #ddd;
+
+}
+
+#main-doc {
+    margin-left: 220px;
+
+    padding: 20px;
+
+}
+
+code {
+    white-space: pre;
+    word-break: normal;
+    word-wrap: normal;
+    display: block;
+    text-align: left;
+    line-height: 1.5;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
